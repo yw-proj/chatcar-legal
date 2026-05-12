@@ -1,0 +1,24 @@
+# Jekyll 설정 (GitHub Pages용)
+title: ChatCar 법적 문서
+description: ChatCar 앱의 개인정보 처리방침 및 이용약관
+lang: ko
+theme: jekyll-theme-minimal
+
+# 마크다운 처리
+markdown: kramdown
+kramdown:
+  input: GFM
+  toc_levels: 2..3
+
+# 표시 옵션
+show_downloads: false
+header_pages:
+  - privacy.md
+  - terms.md
+
+# 빌드 제외
+exclude:
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
