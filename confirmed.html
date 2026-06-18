@@ -14,7 +14,10 @@
            align-items:center;justify-content:center;margin:20px auto 8px}
     h1{font-size:19px;color:#1a1a1a;margin:12px 0 8px}
     p{font-size:14px;line-height:1.7;color:#5a5a5a;margin:0}
-    .hint{margin-top:18px;font-size:12px;color:#9a9a9a}
+    .btn{display:inline-block;margin-top:22px;padding:13px 30px;background:#29ABE2;color:#fff;
+         text-decoration:none;border-radius:10px;font-size:15px;font-weight:600}
+    .btn:active{opacity:.85}
+    .hint{margin-top:16px;font-size:12px;color:#9a9a9a}
   </style>
 </head>
 <body>
@@ -25,8 +28,9 @@
            stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
     </div>
     <h1>이메일 인증이 완료되었습니다</h1>
-    <p>이제 ChatCar 앱으로 돌아가<br>로그인해 주세요.</p>
-    <p class="hint">이 창은 닫으셔도 됩니다.</p>
+    <p>이제 ChatCar 앱으로 돌아가 로그인해 주세요.</p>
+    <a class="btn" href="chatcar://login-callback">ChatCar 앱 열기</a>
+    <p class="hint">버튼이 열리지 않으면 직접 앱으로 돌아가 주세요.<br>이 창은 닫으셔도 됩니다.</p>
   </div>
 </body>
 </html>
